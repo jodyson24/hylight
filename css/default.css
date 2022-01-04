@@ -15,6 +15,47 @@ nav{
     font-size: 17px;
 }
 
+/* =============== Univaersal CSS ================= */
+.content_section{
+    width: 100%;
+    padding: 0px;
+}
+
+/* ==================== Universal CSS end ================= */
+
+
+/* ================== Welcome session CSS ================== */
+.welcome-section{
+    height: 70vh;
+    width: 100%;
+    background: #998387;
+    background-image:linear-gradient(180deg, rgba(7, 16, 48, 0.572), rgba(7, 16, 48, 0.572)), url('../img/bg/theater-stage-430552.jpg');
+    background-size: cover;
+    background-position: 100%;
+    color: #fff;
+}
+.welcome-section-h5{
+    padding-top: 260px;
+    font-size: 54px;
+    font-weight: 500;
+    color: #fff;
+}
+.small-bar{
+    width: 60px;
+    height: 5px;
+    margin-left: 14px;
+    background-color: #e8eff6;
+}
+.contact-welcome{
+    background-image:linear-gradient(180deg, rgba(7, 16, 48, 0.572), rgba(7, 16, 48, 0.572)), url('../img/bg/lumensoft-technologies-WaGMKmJ2F0Y-unsplash.jpg');
+}
+
+
+
+
+/* ================ Welcome CSS end ==================== */
+
+
 main{
     position: absolute;
     top: 0;
@@ -26,30 +67,24 @@ main{
     height: 100vh;
     width: 100%;
     background: #f1b5c0;
-    background-image: url('../img/bg/theater-stage-430552.jpg');
-    background-size: contain;
+    background-image:linear-gradient(180deg, rgba(7, 16, 48, 0.572), rgba(7, 16, 48, 0.572)), url('../img/bg/theater-stage-430552.jpg');
+    background-size: cover;
     background-position: 100% 100%;
     color: #fff;
 }
-.shade{
+/* .shade{
     position: relative;
     width: 100%;
     height: 100%;
     background: #0009;
-}
+} */
 .banner-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: fit-content;
-    width: 45%;
     text-align: center;
 }
 .banner-text h1{
-    text-decoration: none;
-    text-align: center;
-    font-size: 54px;
+    padding-top: 180px; font-size: 25px;
+    /* text-align: center;
+    font-size: 54px; */
     text-transform: uppercase;
 }
 .banner-text h2{
